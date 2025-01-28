@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# COmo criar projeto NextJS e Github
+Este é um projeto feito na aula 03 do __React__ no Senac São Carlos, turma TI 42.
 
-## Getting Started
+## Como criar um projeto do zero no NextJS
+Para começar, tenha certeza de ter o __Node__ instalado no PC. Em seguida, faça:
+- Abrir o CMD na pasta desejada, usando o explorador de arquivos
+- Rodar o comand: `npx create-next-app`
+- Para testar e rodar o projeto, dentro da pasta, digite: `npm run dev`
 
-First, run the development server:
+## Como enviar para o Github
+Certifiquese de ter o __Gitbuh__ instalado no PC e usar o _Github Desktop_.
+- Iniciar o repositório, no CMD da pasta, digite: `git init`
+- No github desktop, digitar o que foi alterado em __sumarry__ e clicar em __commit__
+- Por fim, clicar em __publish Repository__ ou __Push origin__
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Como receber/clonar um repositório
+Vá até a pasta que você quer receber o repositório e faça:
+- Abra o CMD e digite `git clone [link do projeto]` 
+- Entre na pasta e digite no CMD: `npm install` 
+<!-- O git clone somente clona, o npm faz ele instalar as dependencias da pasta -->
